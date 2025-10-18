@@ -9,4 +9,7 @@ sub(10,5)
 mul(10,5)
 div(10,5)
 
+const os = require('os');
 
+console.log(os.arch());
+console.log(os.cpus());
