@@ -1,0 +1,23 @@
+{
+  "name": "backend-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azraa006/BackEnd-19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azraa006/BackEnd-19/issues"
+  },
+  "homepage": "https://github.com/azraa006/BackEnd-19#readme",
+  "dependencies": {
+    "cal-backend-19": "^1.0.0"
+  }
+}
