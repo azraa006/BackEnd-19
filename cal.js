@@ -1,0 +1,7 @@
+const add = require("./add")
+const sub = require("./sub")
+const {mul,div} = require("./mul&div")
+add(10,10)
+sub(10,5)
+mul(10,5)
+div(10,5)
