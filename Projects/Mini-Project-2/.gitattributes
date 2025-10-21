@@ -1,0 +1,19 @@
+# Enforce LF for source files to avoid CRLF conversion warnings on Windows
+*.js text eol=lf
+*.json text eol=lf
+*.prisma text eol=lf
+*.sql text eol=lf
+*.toml text eol=lf
+
+# Node lockfiles can be platform-specific; keep them as text with LF
+package-lock.json text eol=lf
+
+# Keep binary files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+
+# Ensure git treats executable scripts correctly (optional)
+*.sh text eol=lf
